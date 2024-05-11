@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Bot-battlr-Alvin-code-challenge-2-ph2/static/css/main.31d6cfe0.css",
-    "main.js": "/Bot-battlr-Alvin-code-challenge-2-ph2/static/js/main.8b6ac4d1.js",
+    "main.js": "/Bot-battlr-Alvin-code-challenge-2-ph2/static/js/main.2bf50596.js",
     "static/js/453.52e1f0e5.chunk.js": "/Bot-battlr-Alvin-code-challenge-2-ph2/static/js/453.52e1f0e5.chunk.js",
     "index.html": "/Bot-battlr-Alvin-code-challenge-2-ph2/index.html",
-    "main.8b6ac4d1.js.map": "/Bot-battlr-Alvin-code-challenge-2-ph2/static/js/main.8b6ac4d1.js.map",
+    "main.2bf50596.js.map": "/Bot-battlr-Alvin-code-challenge-2-ph2/static/js/main.2bf50596.js.map",
     "453.52e1f0e5.chunk.js.map": "/Bot-battlr-Alvin-code-challenge-2-ph2/static/js/453.52e1f0e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.8b6ac4d1.js"
+    "static/js/main.2bf50596.js"
   ]
 }
