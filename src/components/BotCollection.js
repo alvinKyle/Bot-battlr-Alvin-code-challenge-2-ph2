@@ -14,7 +14,7 @@ function BotCollection() {
 
 
     useEffect(() => {
-        fetch('http://localhost:3000/bots')
+        fetch('https://db-json-g24s.onrender.com/bots')
             .then(res => res.json())
             .then(data => setBotItems(data))
             .catch(err => console.log(err))
@@ -48,7 +48,7 @@ function BotCollection() {
                 {botItems.map(bot => (
                     <div key={bot.id} className='col-sm-3 mb-4'>
                         <div className="card" >
-                            <a href={` ${bot.id}`}>
+                            <a href={`/Bot-battlr-Alvin-code-challenge-2-ph2/${bot.id}`}>
                                 <img src={bot.avatar_url} className="card-img-top" alt={bot.name} />
                             </a>
                             <div className="card-body">

@@ -10,11 +10,11 @@ import YourBotArmy from './components/YourBotArmy';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Bot-battlr-Alvin-code-challenge-2-ph2",
     element: <App />
   },
   {
-    path: "/:id",
+    path: "/Bot-battlr-Alvin-code-challenge-2-ph2/:id",
     element: <YourBotArmy />
 
   }

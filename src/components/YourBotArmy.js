@@ -13,7 +13,7 @@ function YourBotArmy() {
   const [enlistedBots, setEnlistedBots] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:3000/bots/${id}`)
+    fetch(`https://db-json-g24s.onrender.com/bots/${id}`)
       .then(res => res.json())
       .then(data => {
         setRobot(data)
@@ -51,7 +51,7 @@ function YourBotArmy() {
 
             
 
-            <Link to="/">
+            <Link to="/Bot-battlr-Alvin-code-challenge-2-ph2">
               <button className='btn btn-success btn-sm m-2'>Back</button>
             </Link>
 
